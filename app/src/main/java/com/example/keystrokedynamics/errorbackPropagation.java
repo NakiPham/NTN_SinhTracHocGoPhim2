@@ -1,4 +1,4 @@
-package com.example.hp.myapplication;
+package com.example.keystrokedynamics;
 
 /**
  * Created by hp on 23/11/2017.
@@ -52,7 +52,7 @@ public class errorbackPropagation {
     public void initialiseTargetOutput(){
         target_output=new double[1];
     }
-    public void setLegitimatetargetOutput(){
+    public void setHopphaptargetOutput(){
         target_output[0]=1;
         //target_output[1]=1;
     }
@@ -551,7 +551,7 @@ public class errorbackPropagation {
 
 
         };
-        DBHelper mydbhelper=new DBHelper(c, Database.KEYSTROKE_DYNAMICS, null, Database.VERSION);
+        DBHelper mydbhelper=new DBHelper(c, Database.KEYSTROKE_DYNAMICS, null, Database.Version);
         SQLiteDatabase mydatabase = mydbhelper.getWritableDatabase();
         Cursor cur=mydatabase.query(DatabaseNetwork.NETWORK_TABLE_NAME, col, null, null, null, null, null);
         int k=0;
@@ -574,7 +574,7 @@ public class errorbackPropagation {
                 DatabaseNetwork.who71,
                 DatabaseNetwork.who81
         };
-        DBHelper mydbhelper=new DBHelper(con, Database.KEYSTROKE_DYNAMICS, null, Database.VERSION);
+        DBHelper mydbhelper=new DBHelper(con, Database.KEYSTROKE_DYNAMICS, null, Database.Version);
         SQLiteDatabase mydatabase = mydbhelper.getWritableDatabase();
         Cursor cur=mydatabase.query(DatabaseNetwork.hidden_to_output, col, null, null, null, null, null);
         cur.moveToLast();
@@ -667,7 +667,7 @@ public class errorbackPropagation {
 */
             }
         }
-        DBHelper mydbhelper=new DBHelper(con, Database.KEYSTROKE_DYNAMICS, null, Database.VERSION);
+        DBHelper mydbhelper=new DBHelper(con, Database.KEYSTROKE_DYNAMICS, null, Database.Version);
         SQLiteDatabase mydatabase=mydbhelper.getWritableDatabase();
         long r=mydatabase.insertOrThrow(DatabaseNetwork.hidden_to_output, null, cv);
 
@@ -1071,7 +1071,7 @@ public class errorbackPropagation {
             }
 
         }
-        DBHelper mydbhelper=new DBHelper(c, Database.KEYSTROKE_DYNAMICS, null, Database.VERSION);
+        DBHelper mydbhelper=new DBHelper(c, Database.KEYSTROKE_DYNAMICS, null, Database.Version);
         SQLiteDatabase mydatabase=mydbhelper.getWritableDatabase();
         long r=mydatabase.insertOrThrow(DatabaseNetwork.NETWORK_TABLE_NAME, null, cv);
         /*if(r>0){
@@ -1083,7 +1083,7 @@ public class errorbackPropagation {
                 DatabaseNetwork.error1,
                 // DatabaseNetwork.error2
         };
-        DBHelper mydbhelper=new DBHelper(con, Database.KEYSTROKE_DYNAMICS, null, Database.VERSION);
+        DBHelper mydbhelper=new DBHelper(con, Database.KEYSTROKE_DYNAMICS, null, Database.Version);
         SQLiteDatabase mydatabase = mydbhelper.getWritableDatabase();
         Cursor cur=mydatabase.query(DatabaseNetwork.error_table, col, null, null, null, null, null);
         double error = 0;
@@ -1094,7 +1094,7 @@ public class errorbackPropagation {
 
     }
     public void setError(){
-        DBHelper mydbhelper=new DBHelper(con , Database.KEYSTROKE_DYNAMICS, null, Database.VERSION);
+        DBHelper mydbhelper=new DBHelper(con , Database.KEYSTROKE_DYNAMICS, null, Database.Version);
         SQLiteDatabase mydatabase=mydbhelper.getWritableDatabase();
         ContentValues cv=new ContentValues();
         cv.put(DatabaseNetwork.error1,error_output[0]);
