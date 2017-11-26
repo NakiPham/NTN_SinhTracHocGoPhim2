@@ -1,0 +1,10 @@
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\obj\Debug\CollectorKeystroke.csprojResolveAssemblyReference.cache
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\obj\Debug\CollectorKeystroke.Form1.resources
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\obj\Debug\CollectorKeystroke.Properties.Resources.resources
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\obj\Debug\CollectorKeystroke.csproj.GenerateResource.Cache
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\obj\Debug\CollectorKeystroke.csproj.CoreCompileInputs.cache
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\bin\Debug\CollectorKeystroke.exe.config
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\bin\Debug\CollectorKeystroke.exe
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\bin\Debug\CollectorKeystroke.pdb
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\obj\Debug\CollectorKeystroke.exe
+c:\users\ban\source\repos\CollectorKeystroke\CollectorKeystroke\obj\Debug\CollectorKeystroke.pdb
